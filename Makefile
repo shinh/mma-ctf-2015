@@ -1,4 +1,4 @@
-all: pat pat3 howtouse sh nagoya qr2txt pow
+all: pat pat3 sh nagoya qr2txt pow
 
 pow: pow.cc
 	$(CXX) -o $@ $< -g -O -lssl -lcrypto
